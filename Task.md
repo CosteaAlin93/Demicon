@@ -1,6 +1,4 @@
-<details><summary>
-  
-- Create Basic AWS Infrastructure
+<details><summary> Create Basic AWS Infrastructure </summary>
 
 <br>
   
@@ -28,9 +26,7 @@
 <br>
 </details>
 
-<details><summary>
-  
-- Create Basic AWS Infrastructure
+<details><summary> Create Basic AWS Infrastructure </summary>
 
 <br>
   
