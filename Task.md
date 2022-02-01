@@ -41,7 +41,7 @@
 </details>
 
 <details><summary> 3). Lambda script.  </summary>
-  
+   
  
   <br>
 </details>
