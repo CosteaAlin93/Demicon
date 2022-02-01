@@ -1,4 +1,9 @@
+<details><summary>
+  
 - Create Basic AWS Infrastructure
+
+<br>
+  
 > Already had some written from a Udemy Course
 
 ![image](https://user-images.githubusercontent.com/86648102/151950761-d5ff46c3-a06b-423e-b96c-c2a79278bb0c.png)
@@ -12,3 +17,22 @@
 
 ![image](https://user-images.githubusercontent.com/86648102/151953519-b1cde379-bde2-4bd7-9d61-2f07f2f650cc.png)
 
+- Targets are now shown as healthy.
+
+![image](https://user-images.githubusercontent.com/86648102/151953727-8e844d7c-fe5e-4e36-a0a9-0ee8af696032.png)
+
+- Also, the aws_lb dns_name is working and the Apache2 default page is loading.
+
+![image](https://user-images.githubusercontent.com/86648102/151953812-700ae39a-3d49-44a2-aee0-fc2743118ad9.png)
+
+<br>
+</details>
+
+<details><summary>
+  
+- Create Basic AWS Infrastructure
+
+<br>
+  
+<br>
+</details>
