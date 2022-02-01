@@ -1,4 +1,4 @@
-<details><summary> Create Basic AWS Infrastructure </summary>
+<details><summary> 1). Create Basic AWS Infrastructure. </summary>
 
 <br>
   
@@ -26,8 +26,16 @@
 <br>
 </details>
 
-<details><summary> Create Basic AWS Infrastructure </summary>
+<details><summary> 2) Get the **terraform.tfstate** available into an S3 bucket.  </summary>
 
+  For this, I`ve added the terraform block **backend** which changed the default **local-backend** to a **remote-backend** into an S3 bucket, with enabled versioning and a DynamoDB resource where we can store the lock state. Running a **terraform init** will make our local state to be migrated to the remote S3 backend.
+  
+  ![image](https://user-images.githubusercontent.com/86648102/151958148-cba0eeb1-c77c-45cd-9408-054f968b7d8f.png)
+
+  
+
+  
+  
 <br>
   
 <br>
