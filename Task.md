@@ -41,7 +41,41 @@
 </details>
 
 <details><summary> 3). Lambda script.  </summary>
-   
+  
+   This is the part I didn't manage to make. I need to work on my Python or NodeJS skills.
  
   <br>
 </details>
+
+
+
+<details><summary> 4). Manage it with Couldformation.  </summary>
+   
+  For this, we make a Cloudformation template, in which we add a lambda function as a resource. 
+  
+  ![image](https://user-images.githubusercontent.com/86648102/152105819-d5b424fd-822a-422d-9e02-675179e6b930.png)
+
+  '''
+  ---
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Lambda Function Demicon'
+
+Resources:
+  Lambda1:
+    Type: "AWS::Lambda::Function"
+    DeletionPolicy: Retain
+    Properties: 
+        Code:
+            ZipFile: >
+                def lambda_handler(event, context):   
+                return 'Hello from Lambda'
+        Description: Test with Cloud Formation
+        FunctionName: test_lambda_function
+        Handler: lambda_function.lambda_handler
+        Role: arn:aws:iam::337595255177:role/service-role/S3AccessRole
+        Runtime: python3.9
+  '''
+ 
+  <br>
+</details>
+
