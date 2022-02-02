@@ -55,8 +55,7 @@
   
   ![image](https://user-images.githubusercontent.com/86648102/152105819-d5b424fd-822a-422d-9e02-675179e6b930.png)
 
-  '''
-  ---
+```
 AWSTemplateFormatVersion: '2010-09-09'
 Description: 'Lambda Function Demicon'
 
@@ -74,7 +73,7 @@ Resources:
         Handler: lambda_function.lambda_handler
         Role: arn:aws:iam::337595255177:role/service-role/S3AccessRole
         Runtime: python3.9
-  '''
+```
  
   <br>
 </details>
