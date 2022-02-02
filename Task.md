@@ -1,5 +1,4 @@
 <details><summary> 1). Create Basic AWS Infrastructure. </summary>
-
 <br>
   
 > Already had some written from a Udemy Course
@@ -50,7 +49,8 @@
 
 
 <details><summary> 4). Manage it with Couldformation.  </summary>
-   
+<br> 
+  
   For this, we make a Cloudformation template, in which we add a lambda function as a resource. 
   
   ![image](https://user-images.githubusercontent.com/86648102/152105819-d5b424fd-822a-422d-9e02-675179e6b930.png)
